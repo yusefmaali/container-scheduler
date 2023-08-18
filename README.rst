@@ -20,8 +20,8 @@ To start the scheduler, run the command below
 
     container_scheduler.start(schedules)
 
-The function ``start`` is synchronous and will not return until the scheduler is running. To stop the scheduler
-gracefully, you can send a ``SIGTERM`` or a ``SIGKILL`` signal.
+The function ``start`` is synchronous and will not return until the scheduler is running. To stop it gracefully,
+you can send a ``SIGTERM`` or a ``SIGKILL`` signal.
 
 The library was originally developed to work in a docker container, acting as a scheduler container for other
 containers (take a look at `docker-container-scheduler <https://github.com/yusefmaali/docker-container-scheduler>`_)
