@@ -1,0 +1,4 @@
+build
+twine
+docker~=6.0
+schedule-cronjob~=1.0

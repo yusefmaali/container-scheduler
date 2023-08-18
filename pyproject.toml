@@ -1,0 +1,54 @@
+[build-system]
+    requires = ["setuptools"]
+    build-backend = "setuptools.build_meta"
+
+[project]
+    name = "container-scheduler"
+    version = "1.0.0"
+    authors = [
+        {name = "Yusef Maali", email = "contact@yusefmaali.net"}
+    ]
+    description = "A scheduler for docker containers, made easy"
+    readme = "README.rst"
+    requires-python = ">=3.7"
+    keywords = [
+        "docker",
+        "container",
+        "schedule",
+        "container scheduler",
+        "schedule container",
+        "docker container scheduler",
+        "periodic",
+        "scheduling",
+        "clockwork",
+        "cron",
+        "scheduler",
+        "job scheduling",
+        "cronjob",
+        "cronjob scheduling"
+    ]
+    license = {text = "MIT"}
+    classifiers = [
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Development Status :: 5 - Production/Stable",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Natural Language :: English",
+    ]
+    dependencies = [
+        "docker ~= 6.0",
+        "schedule-cronjob ~= 1.0"
+    ]
+
+[project.urls]
+    homepage = "https://github.com/yusefmaali/container-scheduler"
+    repository = "https://github.com/yusefmaali/container-scheduler"
+    changelog = "https://github.com/yusefmaali/container-scheduler/blob/master/CHANGELOG.rst"
+    download = "https://github.com/yusefmaali/container-scheduler/tarball/1.0.0"
